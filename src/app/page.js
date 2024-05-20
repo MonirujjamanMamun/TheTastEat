@@ -9,12 +9,10 @@ import PopularDish from '@/components/Ui/PopularDish/PopularDish';
 import Reservation from '@/components/Ui/Reservation/Reservation';
 import Store from '@/components/Ui/Store/Store';
 import Testimonial from '@/components/Ui/Testimonial/Testimonial';
-import TopHeader from '@/components/Ui/TopHead/TopHeader';
 
 export default function Home() {
   return (
     <main>
-      <TopHeader />
       <Banar />
       <Intro />
       <Store />

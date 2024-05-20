@@ -3,8 +3,9 @@ import React from 'react';
 import Button from '../Button/Button';
 
 const TopHeader = () => {
+  const color = { backgroundColor: 'var(--secondary-color)' };
   return (
-    <div class="container w-container">
+    <div class="container w-container" style={color}>
       <div class="header-top-wrap">
         <div class="header-button-wrap">
           <Button title={'Call - 123 456 789'} />
